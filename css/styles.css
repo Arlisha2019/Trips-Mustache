@@ -1,19 +1,56 @@
 #tripImg {
   height: 300px;
   width: 300px;
-}
-
-#tripsContainer {
-  list-style-type: none;
+  border-radius: 10%
 }
 
 #tripList {
   list-style-type: none;
 }
 
+#heading {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 175px;
+}
+
+#addtripsContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+
+}
+
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
+  #tripImg {
+    height: 300px;
+    width: 300px;
+  }
+
+  #tripList {
+    list-style-type: none;
+  }
+
+  #addtripsContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+
+  }
+
+  #heading {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 175px;
+  }
 
 
 }
@@ -22,13 +59,59 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
 
+  #tripImg {
+    height: 300px;
+    width: 300px;
 
+  }
+
+  #tripList {
+    list-style-type: none;
+  }
+
+  #heading {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 175px;
+  }
+
+  #addtripsContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+
+  }
 
 }
 
 
 @media (min-width: 320px) and (max-width: 480px) {
 
+  #tripImg {
+    height: 200px;
+    width: 200px;
+  }
 
+  #tripList {
+    list-style-type: none;
+  }
+
+  #heading {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 50px;
+  }
+  #addtripsContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+
+  }
 
 }
